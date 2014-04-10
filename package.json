@@ -1,0 +1,17 @@
+{
+  "name": "typepad-client",
+  "version": "0.0.1",
+  "description": "Typepad Client",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/npm/npm.git"
+  },
+
+  "readme": "Typepad Client",
+  "dependencies": {
+    "cheerio": "*",
+    "async": "*",
+    "ytdl": "*",
+    "mongodb": "*"
+  }
+}
