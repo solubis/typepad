@@ -39,3 +39,7 @@ After that you can run ```node typepad.js``` and watch the whole process logging
 If it encounters problems downloading or uploading files they will be saved in `blog.json` log file.
 
 You can run `node typepad.js` again - it will download and upload only problem files.
+
+
+## Known issues
+Due to `issue` in flickr-with-uploads you will not see error message returned from Flicker (pull-request waiting)
