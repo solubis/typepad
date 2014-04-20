@@ -6,12 +6,16 @@
     "type": "git",
     "url": "http://github.com/solubis/typepad"
   },
-
+  "main": "main.html",
   "readme": "Typepad Client",
   "dependencies": {
     "cheerio": "*",
-    "async": "*",
-    "ytdl": "*",
-    "mongodb": "*"
+    "colors": "*",
+    "flickr-with-uploads": "*",
+    "flickrapi": "*",
+    "jasmine-node": "*",
+    "node-rest-client": "*",
+    "q": "*",
+    "ytdl": "*"
   }
 }
