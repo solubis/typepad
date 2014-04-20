@@ -11,6 +11,8 @@ Download it locally and run:
 
 ```npm install```
 
+## Configuration
+
 After that edit ```config.json``` (you can leave `permissions` and `defaultDir` as is):
 ```
 {
@@ -24,13 +26,16 @@ After that edit ```config.json``` (you can leave `permissions` and `defaultDir` 
 
 Run ```node login.js```
 
-You will be prompted for code which will be shown in browser below.
+You will be prompted for code which will be shown in browser.
 The default browser will automatically run with a page allowing to authorize your application to access Flickr.
-When you accept it, the number code e.g 534-12-678 will be shown - copy this code and paste it to application prompt.
+When you accept it, the number code e.g `534-12-678` will be shown - copy this code and paste it to application prompt.
 
-The `User Id`, `OATH token` will be saved in ```config.json```.
+The `User Id`, `Access Token` and `Access Token Secret` will be saved in ```config.json``` for next usage.
 
-After taht you can run ```node typepad.js``` and watch the whole process.
+## Run
 
-If it encounters problems downloading or uploading they will be saved in `blog.json` log file.
+After that you can run ```node typepad.js``` and watch the whole process logging in command prompt.
+
+If it encounters problems downloading or uploading files they will be saved in `blog.json` log file.
+
 You can run `node typepad.js` again - it will download and upload only problem files.
